@@ -54,7 +54,6 @@ Operators
 
 number3 = 45.j - this is a complex type, shouldn't need but good to know
 print(type(number3))
-
 long numbers no longer exist in python from version 3 onwards
 
 float_num = 1.365
@@ -127,6 +126,6 @@ print(f"Your spirit animal is {str(len(secret_spirit_animal))} letters long")
 
 guess_animal = input("What is your secret spirit animal?: ")
 if guess_animal == secret_spirit_animal:
-    print("OMG you got it correct!")
+ print("OMG you got it correct!")
 else:
-    print("You got it wrong! Unlucky")
+ print("You got it wrong! Unlucky")
